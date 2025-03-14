@@ -1,0 +1,14 @@
+密码：Tjs302510#
+
+1. git add 文本名
+2. git commit -m "添加文本备注"
+3. git push origin main // 推送到main
+
+推文件夹上去的时候，文件夹内必须有文档
+1. git add . 
+2. git commit -m "添加文本备注"
+3. git push origin main // 推送到main
+
+从git库里拉代码
+进入到当前分支,执行一下命令
+1. git pull
