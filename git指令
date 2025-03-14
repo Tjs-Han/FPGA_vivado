@@ -1,4 +1,4 @@
-密码：Tjs302510#
+
 
 1. git add 文本名
 2. git commit -m "添加文本备注"
@@ -12,3 +12,15 @@
 从git库里拉代码
 进入到当前分支,执行一下命令
 1. git pull
+
+从git 上拉某一次提交的代码
+
+1. git log --online --graph
+执行之后，会出现之间每次提交的东西。示例如下：
+*1a2b3c4 .....commit的备注
+*5d6e7f8.....commit的备注
+*9a8b7c6.....commit的备注
+2. git checkout 1a2b3c4
+就能在当地拉下这个提交的历史文件。
+3.git checkout mian 
+当地就会恢复之前的
