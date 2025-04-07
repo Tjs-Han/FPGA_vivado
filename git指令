@@ -5,7 +5,8 @@
 3. git push origin main // 推送到main
 
 推文件夹上去的时候，文件夹内必须有文档
-1. git add . 
+1. git add . (该指令上传当前文件内所有文件，从而覆盖之前的文件)
+   git add  文件A/ （该指令只是上传该文件A下的内容,上传完成之后，同样在文件A下）
 2. git commit -m "添加文本备注"
 3. git push origin main // 推送到main
 
